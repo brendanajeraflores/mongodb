@@ -57,7 +57,7 @@ Abrir una consola y ejecutar el comando:
 ```objc
 	show dbs
 ```
-Para ver cambiarse de base de datos dentro de `MongoDB` se utiliza la sentencia:
+Para cambiarse de base de datos dentro de `MongoDB` se utiliza la sentencia:
 Abrir una consola y ejecutar el comando:
 ```objc
 	use [nombreBD]
