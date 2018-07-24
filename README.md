@@ -7,6 +7,7 @@ Este repositorio contiene documentos que ayudarán a entender como funciona la b
 ## Requisitos
 
 * Instalar [MongoDB](https://www.mongodb.com/)
+* Agregar al PATH para utilizar los comandos de `MongoDB`
 * Opcionalmente instalar un manejador de base de datos `MongoDB` como [Robo3T](https://robomongo.org/)
 
 ## Archivo `datos.js`
@@ -32,5 +33,40 @@ La instrucción para agregar datos en la base de `MongoDB` es la siguiente:
 ```objc
 	db.getCollection('coleccion').find({})
 ``` 
+
+## Ejecución MongoDB
+
+**Iniciar MongoDB**
+
+Abrir una consola y ejecutar el comando:
+```objc
+	mongod.exe
+```
+Dejar trabajando el proceso de esta consola.
+
+**Usar MongoDB**
+Abrir una consola nueva y ejecutar el comando:
+```objc
+	mongo.exe
+```
+En esta consola ya se puede empezar a ingresar las sentencias para agregar datos o consultarlos.
+
+Para ver las bases de datos que se tengan dentro de `MongoDB` se utiliza la sentencia:
+Abrir una consola y ejecutar el comando:
+```objc
+	show dbs
+```
+Para ver cambiarse de base de datos dentro de `MongoDB` se utiliza la sentencia:
+Abrir una consola y ejecutar el comando:
+```objc
+	use [nombreBD]
+```
+
+Dentro de una base, para ver las colecciones que se tengan dentro se utiliza la sentencia:
+Abrir una consola y ejecutar el comando:
+```objc
+	show collections
+```
+
 
 
