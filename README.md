@@ -45,6 +45,7 @@ Abrir una consola y ejecutar el comando:
 Dejar trabajando el proceso de esta consola.
 
 **Usar MongoDB**
+
 Abrir una consola nueva y ejecutar el comando:
 ```objc
 	mongo.exe
